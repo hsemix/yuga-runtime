@@ -1,0 +1,28 @@
+{
+  "name": "yuga/runtime",
+  "description": "Runtime adapters for running Yuga under FPM, RoadRunner, FrankenPHP and other workers.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hamidouh Semix",
+      "email": "semix.hamidouh@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "psr/http-message": "^1.1 || ^2.0",
+    "psr/http-server-handler": "^1.0",
+    "nyholm/psr7": "^1.8",
+    "nyholm/psr7-server": "^1.1"
+  },
+  "suggest": {
+    "spiral/roadrunner-http": "Required for RoadRunner runtime",
+    "spiral/roadrunner-worker": "Required for RoadRunner runtime"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yuga\\Runtime\\": "src/"
+    }
+  }
+}

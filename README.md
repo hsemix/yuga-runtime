@@ -1,1 +1,1 @@
-# Runtime adapters for running Yuga under FPM, RoadRunner, FrankenPHP and other workers.
+# Runtime adapters for running Yuga Applications under FPM, RoadRunner, FrankenPHP and other workers.

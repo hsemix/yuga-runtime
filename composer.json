@@ -16,6 +16,8 @@
     "nyholm/psr7": "^1.8",
     "nyholm/psr7-server": "^1.1"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "suggest": {
     "spiral/roadrunner-http": "Required for RoadRunner runtime",
     "spiral/roadrunner-worker": "Required for RoadRunner runtime"
